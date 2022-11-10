@@ -1,0 +1,127 @@
+@media (min-width:992px) {
+    header .center .wrp{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center}
+    header .center .wrp nav a{padding:9px 14px ;margin-right: 5px;color: #333;font-weight: 700;text-transform: uppercase;}
+    header .center .wrp nav a:hover,header .center .wrp nav .active{background: #008bde;color: #fff;}
+    header .center .wrp .menu{display: none;}
+}
+
+
+@media (max-width:991px) {
+    header .top,header .center,.sec1_home,.sec2_home,footer .top,footer .bot,.sec2_gt,.sec1_tt,.sec2_tt,.sec1_tl,.sec2_tl,.sec_lh,.sec_tva,.sec2_tva,.sec3_tva,.sec_duan,.sec2_duan,.sec3_duan{padding: 0 20px;}
+    header .top .wrp{padding: 5px 0;}
+    header .top .wrp .left address{padding-left: 23px;}
+    header .center .wrp{display: flex;flex-wrap: wrap;justify-content: space-between;align-items: center}
+    header .center .wrp .menu{display: block;}
+    header .center .wrp nav a{display: none;}
+    header .center .wrp .menu{display: block;}
+    header .center .wrp nav{position: fixed;height: 100%;width: 40%;z-index: 4;background:#333 ; top: 0; right: 0;display: none; padding: 20px 15px;}
+    header .center .wrp nav a{ display: block; border-bottom: 2px solid #ececec;margin: 0;padding: 10px 0;color: #fff;}
+    header .center .wrp .lightbox { position: fixed; top: 0;left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.3) ;z-index: 3; display: none;}
+    header .bot .owl-nav .owl-prev,header .bot .owl-nav .owl-next{width: 30px;height: 31px;font-size: 22px;background: rgba(0, 0, 0, 0.4);color: #fff;}
+    footer .center .wrp{padding: 40px 20px 15px;}
+    footer .center .wrp .col{width: calc(50% - 10px);margin-bottom: 20px;}
+    footer .center .wrp .ggmap{margin: 0 auto;text-align: center;}
+    footer .center .nextT{top: unset;bottom: 250px;right: 50px;}
+    
+    .sec2_home .wrp .left .title .duan, .sec2_home .wrp .right .title .duan,.sec1_home .wrp .left .title,footer .center .wrp .col .title{font-size: 20px;}
+    .sec1_home .wrp .left .group_item .items ,.sec2_home .wrp .right .grp .lt .titleT{font-size: 13px;}
+    .sec2_home .wrp .left .group .items .text,.sec2_home .wrp .left .group .items .text .titleD,.sec1_home .wrp .left .group_item .items .desc,.sec2_home .wrp .right .grp .lt .desc,.sec2_home .wrp .right .slide .grp_item .items .desc,.sec1_tt .wrp .left .group .top .border a{font-size: 10px;}
+    .sec1_home .wrp .left .group_item .items .desc{display: -webkit-box;-webkit-line-clamp: 2 ; overflow: hidden;-webkit-box-orient: vertical;}
+    .sec1_gt .wrp .boox{margin: -35px 20px 20px;}
+    .sec2_gt .wrp .left ,.sec1_tt .wrp .left .group .top .titleII,.sec2_tt .wrp .left .top .titleII,.sec1_tl .wrp .left .grpp .top .titlell,.sec2_tl .wrp .left .titleL,.sec2_tl .wrp .left .bott .topp .titleg,.sec_lh .wrp .left .grtp .titleL,.sec_tva .wrp .left .group .top .titleII,.sec3_tva .wrp .left .titleL,.sec3_tva .wrp .left .bott .topp .titleg,.sec_duan .wrp .left .group .top .titleII,.sec2_duan .wrp .left .group .top .titleII,.sec3_duan .wrp .left .titleL,.sec3_duan .wrp .left .bott .topp .titleg{font-size: 16px;}
+    .sec1_tt .wrp .left .group .center .rtt .titleyy,.sec2_tt .wrp .left .group .items .rtt .titleyy{font-size: 14px;}
+    .sec1_tt .wrp .left .group .center .rtt .date,.sec2_tt .wrp .left .group .items .rtt .date{font-size: 10px;}
+    .sec1_tt .wrp .left .group .center .rtt .desc,.sec1_tt .wrp .left .group .bot .rect,.sec2_tt .wrp .left .group .items .rtt .desc,.sec_lh .wrp .left .grtp .box22 address,.sec_lh .wrp .left .grtp .box22 a,.sec_lh .wrp .left .grtp .desc,.sec_tva .wrp .left .group .top .border a,.sec_duan .wrp .left .group .top .border a{font-size: 12px;}
+    .sec2_tl .wrp .left .boxV .boxTT{justify-content: space-between;}
+    .sec2_tl .wrp .left .boxV .boxTT input{margin-right: 5px;width:50%;padding: 4px 0 5px 55px;}
+    .sec2_tl .wrp .left .boxV .boxTT .btn{background: url(./icon/taixuongT.png) no-repeat left center,#008bde;padding: 5px 20px 6px 55px;text-align: left;}
+
+    .sec2_tl .wrp .left .boxV .boxTT input::placeholder{font-size: 10px;line-height: 16px;font-style: italic;color: #333;}
+    .sec2_tl .wrp .left .boxV .boxTT input::-ms-input-placeholder{font-size: 10px;line-height: 16px;font-style: italic;color: #333;}
+    .sec2_tl .wrp .left .boxV .boxTT input::-webkit-input-placeholder{font-size: 10px;line-height: 16px;font-style: italic;color: #333;}
+    .sec_lh .wrp .left .grtp .box22 .webst,.sec_lh .wrp .left .grtp .desc{margin-bottom: 20px;}
+    .sec_tva .wrp .left .group .grp_item .items,.sec2_tva .wrp .left .group .grp_item .items,.sec_duan .wrp .left .group .grp_item .items,.sec2_duan .wrp .left .group .grp_item .items{width: calc((100% - 30px) / 2);}
+    .sec3_tva .wrp .left .grp_item .items{width: calc((100% - 20px) / 2);}
+    .sec1_tl .wrp .left .grpp .bot,.sec2_tl .wrp .left .bott .bot{overflow-x: auto}
+
+}
+
+
+@media (max-width:767px) {
+    header .top .wrp .left address{padding-bottom: 5px;}
+    header .top .wrp .right,header .top .wrp .left{width: 100%;}
+    header .top .wrp .right .searchbox{width: 60%;}
+    header .top .wrp .right .searchbox input{padding: 4px 8px 5px;}
+    header .top .wrp .right .searchbox input::placeholder{font-size: 10px;}
+    header .top .wrp .right .searchbox input::-ms-input-placeholder{font-size: 10px;}
+    header .top .wrp .right .searchbox input::-webkit-input-placeholder{font-size: 10px;}
+    
+    header .bot .owl-nav .owl-prev,header .bot .owl-nav .owl-next{width: 20px;height: 20px;font-size: 14px;background: rgba(0, 0, 0, 0.4);color: #fff;}
+    footer .center .wrp .col{width: 100%;margin-bottom: 20px;}
+    footer .center .wrp .ggmap{margin: 0 auto;text-align: left;}
+    footer .center .wrp .col .desc,footer .center .wrp .col address,footer .center .wrp .col .phone,footer .center .wrp .col .email,footer .center .wrp .col .website{font-size: 12px;}
+    .sec1_home .wrp .left,.sec1_home .wrp .right,.sec2_home .wrp .left, .sec2_home .wrp .right,.sec1_tt .wrp .left,.sec1_tt .wrp .right,.sec2_tt .wrp .left,.sec2_tt .wrp .right,.sec1_tl .wrp .left,.sec1_tl .wrp .right,.sec2_tl .wrp .left,.sec2_tl .wrp .right,.sec_lh .wrp .left,.sec_lh .wrp .right,.sec_tva .wrp .left,.sec_tva .wrp .right,.sec2_tva .wrp .left,.sec2_tva .wrp .right,.sec3_tva .wrp .left,.sec3_tva .wrp .right,.sec_duan .wrp .left,.sec_duan .wrp .right,.sec2_duan .wrp .left,.sec2_duan .wrp .right,.sec3_duan .wrp .left,.sec3_duan .wrp .right{width: 100%;}
+    .sec2_gt .wrp .right,.sec2_gt .wrp .left,.sec_tva .wrp .left .group .grp_item .items,.sec2_tva .wrp .left .group .grp_item .items,.sec3_tva .wrp .left .grp_item .items,.sec_duan .wrp .left .group .grp_item .items,.sec2_duan .wrp .left .group .grp_item .items{width: 100%;}
+    .sec1_home .wrp .left .group_item,header .bot,.sec2_home .wrp,.sec2_gt .wrp .left .items,.sec2_gt .wrp .right .box2,.sec1_tt .wrp .right .box2,.sec2_tva .wrp .left .group .grp_item .items,.sec_duan .wrp .left .group .grp_item .items{margin-bottom: 20px;}
+    .sec2_home .wrp .left .title .duan, .sec2_home .wrp .right .title .duan,.sec1_home .wrp .left,footer .center .wrp .col .title{font-size: 16px;}
+    header .top .wrp .left address,footer .bot .wrp .banquyen,footer .bot .wrp .banquyen a,footer .bot .wrp .tk{font-size: 9px;}
+    .sec1_gt .wrp .boox{margin: -25px 20px 10px;}
+    .sec2_gt .wrp .left .items .rt .titleG,.sec2_gt .wrp .left .titleL,.sec2_tt .wrp .left .titleL,.sec2_tt .wrp .left .bott .topp .titleg,.sec3_tva .wrp .left .bott .topp .titleg,.sec_duan .wrp .left .group .top .titleII,.sec2_duan .wrp .left .group .top .titleII,.sec3_duan .wrp .left .titleL{font-size: 14px;}
+    .sec2_gt .wrp .left .items .rt .datetime,.sec2_tt .wrp .left .box_bot .l{font-size: 8px;}
+    .sec2_gt .wrp .left .boxL{margin-bottom: 10px;}
+    /* tăng giảm font */
+    .sec2_gt .wrp .left .items .rt .desc,.sec2_gt .wrp .left .boxL .date,.sec2_gt .wrp .left,.sec2_gt .wrp .left .boxC .titlee,.sec2_tt .wrp .left .boxL .date,.sec2_tt .wrp .left .boxL .font ,.sec1_gt .wrp .boox span,.sec2_tt .wrp .left .bott .bot .rect,.sec2_home .wrp .left .title .all, .sec2_home .wrp .right .title .all,.sec2_tl .wrp .left .boxL .date .time,.sec2_tl .wrp .left .boxL .font,.sec2_tl .wrp .left .boxL .date .view,.sec2_tl .wrp .left .box_bot .l,.sec_tva .wrp .left .group .top .border a,.sec3_tva .wrp .left .boxL .date .time,.sec3_tva .wrp .left .boxL .font,.sec3_tva .wrp .left .box_bot .l,.sec3_tva .wrp .left .boxL .date .view,.sec2_gt .wrp .left .boxV .titler, .sec_duan .wrp .left .group .top .border .all,.sec3_duan .wrp .left .boxL .date .time,.sec3_duan .wrp .left .boxL .date .view,.sec3_duan .wrp .left .boxL .font,.sec3_duan .wrp .left .box_bot .l{font-size: 9px;}
+    .sec2_tt .wrp .left .bott .bot .rect{margin-bottom: 5px;padding-bottom: 5px;}
+    .sec2_gt .wrp .left .boxL .font button ,.sec2_tt .wrp .left .boxL .font button,.sec2_tl .wrp .left .boxL .font button,.sec3_tva .wrp .left .boxL .font button,.sec3_duan .wrp .left .boxL .font button{padding: 2px 6px;}
+    .sec2_gt .wrp .left .boxL .date,.sec2_gt .wrp .left .box_bot .l,.sec2_tt .wrp .left .boxL .date,.sec2_tt .wrp .left .box_bot .l,.sec2_tl .wrp .left .boxL .date,.sec2_tl .wrp .left .box_bot .l,.sec3_tva .wrp .left .boxL .date,.sec3_tva .wrp .left .box_bot .l,.sec3_duan .wrp .left .boxL .date,.sec3_duan .wrp .left .box_bot .l{padding-left: 5px;}
+    .sec2_tt .wrp .left .group .items,.sec2_gt .wrp .left .boxV,.sec2_gt .wrp .left .box_bot,.sec2_tt .wrp .left .box_bot,.sec2_tt .wrp .left .boxV .WImg,.sec2_tl .wrp .left .boxV,.sec_lh .wrp .left .grtp,.sec_tva .wrp .left .group .grp_item .items{margin-bottom: 20px;}
+    /*  */
+    .sec2_tt .wrp .left .boxV ,.sec2_tt .wrp .left .boxC .desc .textR,.sec2_tt .wrp .left .bott .bot,.sec1_tl .wrp .right .box2{margin-bottom: 20px;}
+    .sec2_gt .wrp .left .boxC .titlee,.sec2_tt .wrp .left .boxC{font-size: 12px;margin-bottom: 20px;}
+    .sec2_gt .wrp .left .boxV .titler,.sec_duan .wrp .left .group .grp_item .items .titleww,.sec2_duan .wrp .left .group .grp_item .items .titleww{font-size: 12px;}
+    .sec1_tt .wrp .left .group .bot .rect a,.sec2_tt .wrp .left .bott .bot .rect a{line-height: 18px;}
+    .sec2_gt .wrp .left .boxL .date .time,.sec2_tt .wrp .left .boxL .date .time,.sec2_tt .wrp .left .box_bot .l .prev,.sec2_tt .wrp .left .box_bot .l .gui,.sec2_tl .wrp .left .box_bot .r a,.sec3_tva .wrp .left .boxL .date .time,.sec3_duan .wrp .left .boxL .date .time,.sec3_duan .wrp .left .box_bot .l .prev,.sec3_duan .wrp .left .box_bot .l .gui,.sec3_duan .wrp .left .box_bot .r a{margin-right: 5px;}
+    .sec2_gt .wrp .left .box_bot .l .prev,.sec2_gt .wrp .left .box_bot .l .gui,.sec2_tl .wrp .left .boxL .date .time,.sec2_tl .wrp .left .box_bot .l .prev,.sec2_tl .wrp .left .box_bot .l .gui,.sec2_gt .wrp .left .box_bot .r a,.sec2_tt .wrp .left .box_bot .r a,.sec3_tva .wrp .left .box_bot .l .prev,.sec3_tva .wrp .left .box_bot .l .gui,.sec3_tva .wrp .left .box_bot .r a{margin-right: 5px;}
+    /*  */
+    .sec2_tl .wrp .left .boxV .boxTT input{margin:0 0 10px;width: 100%;}
+
+    .sec1_tt .wrp .left .group .center .WImg,.sec1_tt .wrp .left .group .center .rtt,.sec2_tt .wrp .left .group .items .WImg,.sec2_tt .wrp .left .group .items .rtt,.sec2_tl .wrp .left .boxV .boxTT .btn{width:100%}
+    .sec1_tt .wrp .left .group .bot .rect {font-size: 9px;}
+    .sec1_tt .wrp .left .group .center,.sec1_tt .wrp .left .group .center .WImg,.sec2_tt .wrp .left .group .items .WImg,.sec2_tt .wrp .left .boxL,.sec2_tt .wrp .left .boxC .titlee,.sec2_tl .wrp .left .boxL,.sec2_tl .wrp .left .boxV iframe,.sec2_tl .wrp .left .bott,.sec3_tva .wrp .left .boxL{margin-bottom: 10px;}
+    .sec1_tt .wrp .left .group{padding-bottom: 10px;margin-bottom: 10px;}
+    /* .sec1_tl .wrp .left .grpp .bot,.sec2_tl .wrp .left .bott .bot{overflow-x: auto} */
+    .sec1_tl .wrp .left .grpp .top .titlell,.sec_tva .wrp .left .group .top .titleII,.sec3_tva .wrp .left .titleL,.sec3_duan .wrp .left .bott .topp .titleg,.sec2_tva .wrp .left .group .top .titleII{font-size: 14px;}
+    .sec1_tl .wrp .left table tr th,.sec1_tl .wrp .left table tr{font-size: 12px;}
+    .sec2_tl .wrp .left .titleL{font-size: 14px;margin-bottom: 10px;}
+    .sec2_tl .wrp .left .boxC .desc,.sec2_tl .wrp .left .boxC .titlee{font-size: 12px;margin-bottom: 10px;}
+    .sec_lh .wrp .left .grtp .box22 .webst,.sec_lh .wrp .left .grtp .desc{margin-bottom: 10px;}
+    .sec_lh .wrp .left .grtp form input::placeholder{line-height: 16px;}
+    .sec_lh .wrp .left .grtp form input::-ms-input-placeholder{line-height: 16px}
+    .sec_lh .wrp .left .grtp form input::-webkit-input-placeholder{line-height: 16px}
+    .sec_lh .wrp .left .grtp form .boty,.sec_tva .wrp .left .group .grp_item .items .titleww{font-size: 12px;}
+    .sec_lh .wrp .left .grtp form .boty .btn{font-size: 12px;padding: 4px 8px 3px;}
+    .sec3_tva .wrp .left .boxC .titlee,.sec3_tva .wrp .left .boxC .desc,.sec3_duan .wrp .left .boxC .titlee,.sec3_duan .wrp .left .boxC .desc{font-size: 12px;margin-bottom: 10px;}
+    .sec3_tva .wrp .left .bott .bot .owl-nav .owl-prev, .sec3_tva .wrp .left .bott .bot .owl-nav .owl-next,.sec3_duan .wrp .left .bott .bot .owl-nav .owl-prev, .sec3_duan .wrp .left .bott .bot .owl-nav .owl-next{width: 15px;height: 15px;}
+    .sec3_duan .wrp .left .center{margin-bottom: 20px;}
+    .sec1_tl .wrp .left .phantrang,.sec2_tt .wrp .left .phantrang,.sec2_tva .wrp .left .phantrang,.sec2_duan .wrp .left .phantrang{margin-bottom: 10px;}
+    .sec1_tl .wrp .left .phantrang .l,.sec2_tt .wrp .left .phantrang .l,.sec2_tva .wrp .left .phantrang .l,.sec2_duan .wrp .left .phantrang .l{margin-bottom: 5px;}
+    .sec1_tl .wrp .left .phantrang .btn,.sec2_tt .wrp .left .phantrang .btn,.sec2_tva .wrp .left .phantrang .btn,.sec2_duan .wrp .left .phantrang .btn{padding: 3px 6px;font-size: 10px;line-height: 14px;}
+    .sec1_tl .wrp .left .phantrang .next,.sec2_tt .wrp .left .phantrang .next,.sec2_tva .wrp .left .phantrang .next,.sec2_duan .wrp .left .phantrang .next{padding-right: 20px;}
+    .sec1_tl .wrp .left .phantrang .r,.sec2_tt .wrp .left .phantrang .r,.sec2_tva .wrp .left .phantrang .r,.sec2_duan .wrp .left .phantrang .r{font-size: 10px;}
+    .sec1_home .wrp .left .botT::after,.sec2_home .wrp .left .botT::after, .sec2_home .wrp .right .botT::after{width: 10px;height: 10px;top: -5px;}
+    .sec1_tt .wrp .left .group .top .border::after,.sec2_tt .wrp .left .bott .topp .borderr::after,.sec1_tl .wrp .left .grpp .top .border::after,.sec2_tl .wrp .left .bott .topp .borderr::after,.sec_tva .wrp .left .group .top .border::after,.sec3_tva .wrp .left .bott .topp .borderr::after,.sec_duan .wrp .left .group .top .border::after,.sec3_duan .wrp .left .bott .topp .borderr::after{width: 10px;height: 10px;top: 14px;}
+    .sec2_duan .wrp .left .group .top .border::after,.sec2_tt .wrp .left .top .border::after,.sec2_tva .wrp .left .group .top .border::after{width: 10px;height: 10px;top: 12px;}
+    .sec3_duan .wrp .left .info .info_nd{font-size: 11px;}
+}
+
+
+@media (max-width:471px) {
+    footer .center .wrp .col .website{margin-bottom: 20px;}
+    .sec_lh .wrp .left .grtp form input{width: 100%;}
+    .sec1_home .wrp .left .group_item .items .titleI{text-align: center;}
+    .sec2_home .wrp .left .group .items{width: 100%;}
+    .sec2_home .wrp .right .slide .owl-carousel .owl-nav .owl-prev, .sec2_home .wrp .right .slide .owl-carousel .owl-nav .owl-next{top: 40%;}
+    .sec2_home .wrp .right .grp{justify-content: center;}
+    .sec2_home .wrp .right .grp .lt,.sec2_gt .wrp .left .items .WImg{width: 100%;margin-bottom: 10px;}
+    .sec2_home .wrp .right .grp .WImg,.sec2_gt .wrp .left .items .rt{width: 100%;}
+}
